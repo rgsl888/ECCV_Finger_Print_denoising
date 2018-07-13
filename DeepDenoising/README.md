@@ -11,6 +11,8 @@ This code repository is built on top of [DeepLab v2](https://bitbucket.org/aquar
 
 For more details, please refer to our [paper](https://arxiv.org/abs/1706.04284).
 
+### NOTE : But this code has particular changes for ECCV challenge and architectural changes such as dilated convolution network has been introduced compared to original papaer.
+
 ### Download models
 - `cd exper/model/`
 - Run `get_models.sh` to download models used in our work.
