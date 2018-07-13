@@ -12,8 +12,11 @@ save_path=model/${jobid}
 
 base_lr=1e-4
 snap_int=25000
+# This should contain the names of all the images
 image_list=/home/rgsl888/Finger_Print_dataset/image.txt
+# This should contain the images in their gray scale
 image_root=/home/rgsl888/Finger_Print_dataset/gray_conv_input/
+# This will be the ground truth folder
 image_gnd_root=/home/rgsl888/Finger_Print_dataset/training_ground-truth/
 batch_size=8
 crop_size=40
