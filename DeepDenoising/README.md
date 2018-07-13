@@ -3,7 +3,7 @@
 ## Introduction
 This repository provides codes that we use to study the mutual influence between image denoising and high-level vision tasks.
 
-(1) We present an image denoising network which achieves state-of-the-art image denoising performance. 
+(1) We present an finger print denoising network which achieves state-of-the-art image denoising performance. 
 
 (2) We propose a deep network solution that cascades two modules for image denoising and various high-level tasks, respectively, and demonstrate that the proposed architecture not only yields superior image denoising results preserving fine details, but also overcomes the performance degradation of different high-level vision tasks, such as image classification and semantic segmentation, due to image noise.
 
