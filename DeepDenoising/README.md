@@ -13,21 +13,21 @@ For more details, please refer to our [paper](https://arxiv.org/abs/1706.04284).
 
 ### NOTE : But this code has particular changes for ECCV challenge and architectural changes such as dilated convolution network has been introduced compared to original papaer.
 
-### Download models
-- `cd exper/model/`
-- Run `get_models.sh` to download models used in our work.
+## Converting the colored images to gray
+- `cd Testing`
+- Use processimage.py to generate gray images
+
+### Models
+- `cd exper/model/11/`
 
 ### Training
 - `cd exper`
 - Run `main_train_denoise.sh` to train the denoising network seperately.
-- Run `main_train_cls.sh` to jointly train the cascade of the denoising network and the network for image classification.
-- Run `main_train_seg.sh` to jointly train the cascade of the denoising network and the entwork for semantic segmentation.
 
 ### Testing
-- `cd exper`
-- Run `main_test_cls.sh` to test the resulting model for image classification.
-- Run `main_test_seg.sh` to test the resulting model for semantic segmentation.
-- Run `main_test_denoise.sh` to generate denoised results.
+- `cd Testing`
+- Use the dia_mean.ipynb file to generate images for testing
+- Use conv.ipynb to remove the noise on the edges 
 
 ## Citation
 Please cite the paper in your publications if it helps your research:
