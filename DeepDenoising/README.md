@@ -18,15 +18,17 @@ For more details, please refer to our [paper](https://arxiv.org/abs/1706.04284).
 - Use processimage.py to generate gray images
 
 ### Models
-- `cd exper/model/11/`
+- `cd Testing`
 
 ### Training
 - `cd exper`
 - Run `main_train_denoise.sh` to train the denoising network seperately.
+- Need to have an txt file where all the image names are listed and its location needs to updated in main_train_denoise.sh
 
 ### Testing
 - `cd Testing`
 - Use the dia_mean.ipynb file to generate images for testing
+- The trained model and its deply file are also located in the same folder
 - Use conv.ipynb to remove the noise on the edges 
 
 ## Citation
